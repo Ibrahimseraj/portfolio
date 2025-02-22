@@ -1,0 +1,373 @@
+#contact {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.contacts {
+    margin-top: 50px;
+}
+
+.info {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.contact-input-1 {
+    border: 1px solid black;
+    border-bottom: 2px solid aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+    outline: none;
+}
+
+.contact-input-2 {
+    border: 1px solid black;
+    border-bottom: 2px solid aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+    outline: none;
+    margin-top: 25px;
+}
+
+.form textarea {
+    outline: hidden;
+    margin-top: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 2px solid aliceblue;
+    outline: none;
+    resize: none;
+    color: aliceblue;
+}
+
+.submit {
+    margin-top: 10px;
+    width: 20%;
+    height: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: orange;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+
+.submit:active {
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+
+.developer {
+    font-family: 'Ms Madi', cursive;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.developer a {
+    color: orange;
+}
+
+.githupandlinkedin {
+    margin-left: 10px;
+}
+
+.linkedin {
+    color: aliceblue;
+    font-size: xx-large;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.linkedin:hover {
+    background-color: aliceblue;
+    color: blue;
+    cursor: pointer;
+}
+
+.linkedin:active {
+    color: blue;
+    cursor: pointer;
+}
+
+.githup {
+    font-size: xx-large;
+    border-radius: 50%;
+    text-decoration: none;
+    color: aliceblue;
+    width: fit-content;
+    margin-left: 25px;
+}
+
+.githup:hover {
+    cursor: pointer;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.githup:active {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+@media all and (max-width: 1279px) and (min-width: 1025px) {
+    #con {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 878px) {
+    #con {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 877px) and (min-width: 768px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+
+@media all and (max-width: 767px) and (min-width: 631px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .skills {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .skills-section-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .css {
+        margin-top: 20px;
+    }
+    .sass {
+        margin-top: 20px;
+    }
+    .javascript {
+        margin-top: 20px;
+    }
+    .react {
+        margin-top: 20px;
+    }
+    .skills-section-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .nav a {
+       padding: 10px;
+    }
+    .nav h1 {
+        padding: 5px;
+    }
+    .about-me {
+        margin-top: 150px;
+    }
+    .skills {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .skills-section-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .css {
+        margin-top: 20px;
+    }
+    .sass {
+        margin-top: 20px;
+    }
+    .javascript {
+        margin-top: 20px;
+    }
+    .react {
+        margin-top: 20px;
+    }
+    .skills-section-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .submit {
+        width: 38%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .about-me-description h3 {
+        font-size: medium;
+    }
+    .nav a {
+       padding: 5px;
+       font-size: medium;
+    }
+    .nav h1 {
+        padding: 0;
+        font-size: x-large;
+    }
+    .about-me {
+        margin-top: 300px;
+    }
+    .about-image-ibrahim {
+        margin-left: 0;
+    }
+    .skills {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .skills-section-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .css {
+        margin-top: 20px;
+    }
+    .sass {
+        margin-top: 20px;
+    }
+    .javascript {
+        margin-top: 20px;
+    }
+    .react {
+        margin-top: 20px;
+    }
+    .skills-section-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        width: 95%;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 441px) {
+    .developer {
+        font-size: large;
+    }
+}
+
+
+@media all and (max-width: 366px) {
+    .nav h1 {
+        font-size: x-large;
+    }
+    .nav a {
+        padding: 5px;
+        font-size: small;
+    }
+    .home-info {
+        margin-left: 30px;
+    }
+}

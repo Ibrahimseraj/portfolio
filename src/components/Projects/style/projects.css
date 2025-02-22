@@ -1,0 +1,487 @@
+.project {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.projects h1 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Amita', cursive;
+}
+
+.memorygame {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.memorygame h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    margin-bottom: 70px;
+}
+
+.memorygame img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.teck {
+    margin-top: 10px;
+}
+
+.html1 {
+    font-size: xx-large;
+    color: blue;
+}
+
+.css1 {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: blue;
+}
+
+.javascript1 {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: yellow;
+}
+
+.memorygame-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.livesite {
+    margin-right: 10px;
+    font-family: 'Amita', cursive;
+}
+
+.livesite a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.livesite:hover {
+    transform: translateY(-5px);
+    transition: all 150ms 150ms ease-in;
+    cursor: pointer;
+}
+
+.livesite a:hover {
+    color: powderblue;
+    transition: color 150ms 150ms linear;
+}
+
+.livesite a:active {
+    color: powderblue;
+    transition: color 150ms 150ms linear;
+}
+
+.livesite:active {
+    transform: translateY(-5px);
+    transition: all 150ms 150ms ease-in;
+}
+
+.livesite {
+    margin-right: 10px;
+    font-family: 'Amita', cursive;
+}
+
+.livesite a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.livesite:hover {
+    transform: translateY(-5px);
+    transition: all 150ms 150ms ease-in;
+    cursor: pointer;
+}
+
+.livesite a:hover {
+    color: orange;
+    transition: color 150ms 150ms linear;
+}
+
+.livesite a:active {
+    color: orange;
+    transition: color 150ms 150ms linear;
+}
+
+.livesite:active {
+    transform: translateY(-5px);
+    transition: all 200ms 200ms ease-in;
+}
+
+.projectsgithup {
+    margin-left: 10px;
+    font-family: 'Amita', cursive;
+}
+
+.projectsgithup a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.projectsgithup:hover {
+    color: orange;
+    transform: translateY(-5px);
+    transition: all 150ms 150ms ease-in;
+    cursor: pointer;
+}
+
+.projectsgithup a:hover {
+    color: orange;
+    transition: color 150ms 150ms linear;
+}
+
+.projectsgithup a:active {
+    color: orange;
+    transition: color 150ms 150ms linear;
+}
+
+.projectsgithup:hover {
+    transform: translateY(-5px);
+    transition: all 150ms 150ms ease-in;
+}
+
+.r-p-s {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.r-p-s h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    margin-bottom: 70px;
+}
+
+.r-p-s img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.teck2 {
+    margin-top: 10px;
+}
+
+.html2 {
+    font-size: xx-large;
+    color: blue;
+}
+
+.css2 {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: blue;
+}
+
+.javascript2 {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: yellow;
+}
+
+.r-p-s-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.flame {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.flame h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    margin-bottom: 70px;
+}
+
+.flame img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.teck4 {
+    margin-top: 10px;
+}
+
+.flame-project-mongodb {
+    font-size: xx-large;
+    color: green;
+}
+
+.flame-project-expressjs {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: white;
+}
+
+.flame-project-react {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: #61dafb;
+}
+
+.flame-project-nodejs {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: green;
+}
+
+.flame-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+@media all and (max-width: 1279px) and (min-width: 1025px) {
+    #con {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 878px) {
+    #con {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 877px) and (min-width: 768px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+
+@media all and (max-width: 767px) and (min-width: 631px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .skills {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .skills-section-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .css {
+        margin-top: 20px;
+    }
+    .sass {
+        margin-top: 20px;
+    }
+    .javascript {
+        margin-top: 20px;
+    }
+    .react {
+        margin-top: 20px;
+    }
+    .skills-section-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .nav a {
+       padding: 10px;
+    }
+    .nav h1 {
+        padding: 5px;
+    }
+    .about-me {
+        margin-top: 150px;
+    }
+    .skills {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .skills-section-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .css {
+        margin-top: 20px;
+    }
+    .sass {
+        margin-top: 20px;
+    }
+    .javascript {
+        margin-top: 20px;
+    }
+    .react {
+        margin-top: 20px;
+    }
+    .skills-section-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .submit {
+        width: 38%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .about-me-description h3 {
+        font-size: medium;
+    }
+    .nav a {
+       padding: 5px;
+       font-size: medium;
+    }
+    .nav h1 {
+        padding: 0;
+        font-size: x-large;
+    }
+    .about-me {
+        margin-top: 300px;
+    }
+    .about-image-ibrahim {
+        margin-left: 0;
+    }
+    .skills {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .skills-section-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .css {
+        margin-top: 20px;
+    }
+    .sass {
+        margin-top: 20px;
+    }
+    .javascript {
+        margin-top: 20px;
+    }
+    .react {
+        margin-top: 20px;
+    }
+    .skills-section-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        width: 95%;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 441px) {
+    .developer {
+        font-size: large;
+    }
+}
+
+
+@media all and (max-width: 366px) {
+    .nav h1 {
+        font-size: x-large;
+    }
+    .nav a {
+        padding: 5px;
+        font-size: small;
+    }
+    .home-info {
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,268 @@
+.nav a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+    padding: 20px;
+    float: right;
+}
+
+.click:hover {
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    text-underline-offset: 10px;
+    transition: color 150ms 150ms linear;
+}
+
+.nav h1 {
+    font-family: 'Ms Madi', cursive;
+    color: orange;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 20px;
+}
+
+@media all and (max-width: 1279px) and (min-width: 1025px) {
+    #con {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 878px) {
+    #con {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 877px) and (min-width: 768px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+
+@media all and (max-width: 767px) and (min-width: 631px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .skills {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .skills-section-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .css {
+        margin-top: 20px;
+    }
+    .sass {
+        margin-top: 20px;
+    }
+    .javascript {
+        margin-top: 20px;
+    }
+    .react {
+        margin-top: 20px;
+    }
+    .skills-section-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .nav a {
+       padding: 10px;
+    }
+    .nav h1 {
+        padding: 5px;
+    }
+    .about-me {
+        margin-top: 150px;
+    }
+    .skills {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .skills-section-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .css {
+        margin-top: 20px;
+    }
+    .sass {
+        margin-top: 20px;
+    }
+    .javascript {
+        margin-top: 20px;
+    }
+    .react {
+        margin-top: 20px;
+    }
+    .skills-section-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .submit {
+        width: 38%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .about-me-description h3 {
+        font-size: medium;
+    }
+    .nav a {
+       padding: 5px;
+       font-size: medium;
+    }
+    .nav h1 {
+        padding: 0;
+        font-size: x-large;
+    }
+    .about-me {
+        margin-top: 300px;
+    }
+    .about-image-ibrahim {
+        margin-left: 0;
+    }
+    .skills {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .skills-section-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .css {
+        margin-top: 20px;
+    }
+    .sass {
+        margin-top: 20px;
+    }
+    .javascript {
+        margin-top: 20px;
+    }
+    .react {
+        margin-top: 20px;
+    }
+    .skills-section-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        width: 95%;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 441px) {
+    .developer {
+        font-size: large;
+    }
+}
+
+
+@media all and (max-width: 366px) {
+    .nav h1 {
+        font-size: x-large;
+    }
+    .nav a {
+        padding: 5px;
+        font-size: small;
+    }
+    .home-info {
+        margin-left: 30px;
+    }
+}

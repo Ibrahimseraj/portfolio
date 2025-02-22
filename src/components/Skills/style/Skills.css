@@ -1,0 +1,538 @@
+.skill {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.skills {
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+.skills-section-one {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.html {
+    width: 100px;
+    height: 100px;
+    background-color: #151921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.html div {
+    text-align: center;
+    background-color: #151921;
+}
+
+.html div:hover {
+    background-color: #151921;
+    text-align: center;
+    transform: scale(1.2);
+    transition: transform 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.html div p {
+    background-color: #151921;
+    font-size: medium;
+}
+
+.HTML-skills-icon {
+    background-color: #151921;
+    color: blue;
+}
+
+.css {
+    width: 100px;
+    height: 100px;
+    background-color: #151921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.css div {
+    background-color: #151921;
+    text-align: center;
+}
+
+.css div:hover {
+    background-color: #151921;
+    text-align: center;
+    transform: scale(1.2);
+    transition: transform 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.css-skills-icon {
+    background-color: #151921;
+    color: blue;
+}
+
+.css div p {
+    font-size: medium;
+    background-color: #151921;
+}
+
+.sass {
+    width: 100px;
+    height: 100px;
+    background-color: #151921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+.sass div {
+    background-color: #151921;
+    text-align: center;
+    transform: scale(-50px);
+    cursor: pointer;
+}
+
+
+.sass div:hover {
+    background-color: #151921;
+    text-align: center;
+    transform: scale(1.2);
+    transition: transform 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.sass-skills-icon {
+    background-color: #151921;
+    color:#bf4080;
+}
+
+.sass div p {
+    font-size: medium;
+    background-color: #151921;
+}
+
+.javascript {
+    width: 100px;
+    height: 100px;
+    background-color: #151921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.javascript div {
+    background-color: #151921;
+    text-align: center;
+}
+
+.javascript div:hover {
+    background-color: #151921;
+    text-align: center;
+    transform: scale(1.2);
+    transition: transform 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.javascript-skills-icon {
+    background-color: #151921;
+    color: yellow;
+}
+
+.javascript div p {
+    font-size: medium;
+    background-color: #151921;
+}
+
+.react {
+    width: 100px;
+    height: 100px;
+    background-color: #151921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.react div {
+    background-color: #151921;
+    text-align: center;
+}
+
+.react div:hover {
+    background-color: #151921;
+    text-align: center;
+    transform: scale(1.2);
+    transition: transform 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.react-skills-icon {
+    background-color: #151921;
+    color: #61dafb;
+}
+
+.react div p {
+    font-size: medium;
+    background-color: #151921;
+}
+
+.skills-section-two {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nodejs {
+    width: 100px;
+    height: 100px;
+    background-color: #151921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.nodejs div {
+    background-color: #151921;
+    text-align: center;
+}
+
+.nodejs div:hover {
+    background-color: #151921;
+    text-align: center;
+    transform: scale(1.2);
+    transition: transform 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.nodejs-skills-icon {
+    background-color: #151921;
+    color: green;
+}
+
+.nodejs div p {
+    font-size: medium;
+    background-color: #151921;
+}
+
+.expressjs {
+    width: 100px;
+    height: 100px;
+    background-color: #151921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.expressjs div {
+    background-color: #151921;
+    text-align: center;
+}
+
+.expressjs div:hover {
+    background-color: #151921;
+    text-align: center;
+    transform: scale(1.2);
+    transition: transform 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.expressjs-skills-icon {
+    background-color: #151921;
+    color: whitesmoke;
+}
+
+.expressjs div p {
+    font-size: medium;
+    background-color: #151921;
+}
+
+.mongodb {
+    width: 100px;
+    height: 100px;
+    background-color: #151921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.mongodb div {
+    background-color: #151921;
+    text-align: center;
+}
+
+.mongodb div:hover {
+    background-color: #151921;
+    text-align: center;
+    transform: scale(1.2);
+    transition: transform 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.mongodb-skills-icon {
+    background-color: #151921;
+    color: green;
+}
+
+.mongodb div p {
+    font-size: medium;
+    background-color: #151921;
+}
+
+
+@media all and (max-width: 1279px) and (min-width: 1025px) {
+    #con {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 878px) {
+    #con {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 877px) and (min-width: 768px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+
+@media all and (max-width: 767px) and (min-width: 631px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .skills {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .skills-section-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .css {
+        margin-top: 20px;
+    }
+    .sass {
+        margin-top: 20px;
+    }
+    .javascript {
+        margin-top: 20px;
+    }
+    .react {
+        margin-top: 20px;
+    }
+    .skills-section-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .nav a {
+       padding: 10px;
+    }
+    .nav h1 {
+        padding: 5px;
+    }
+    .about-me {
+        margin-top: 150px;
+    }
+    .skills {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .skills-section-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .css {
+        margin-top: 20px;
+    }
+    .sass {
+        margin-top: 20px;
+    }
+    .javascript {
+        margin-top: 20px;
+    }
+    .react {
+        margin-top: 20px;
+    }
+    .skills-section-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .submit {
+        width: 38%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .about-me-description h3 {
+        font-size: medium;
+    }
+    .nav a {
+       padding: 5px;
+       font-size: medium;
+    }
+    .nav h1 {
+        padding: 0;
+        font-size: x-large;
+    }
+    .about-me {
+        margin-top: 300px;
+    }
+    .about-image-ibrahim {
+        margin-left: 0;
+    }
+    .skills {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .skills-section-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .css {
+        margin-top: 20px;
+    }
+    .sass {
+        margin-top: 20px;
+    }
+    .javascript {
+        margin-top: 20px;
+    }
+    .react {
+        margin-top: 20px;
+    }
+    .skills-section-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        width: 95%;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 441px) {
+    .developer {
+        font-size: large;
+    }
+}
+
+
+@media all and (max-width: 366px) {
+    .nav h1 {
+        font-size: x-large;
+    }
+    .nav a {
+        padding: 5px;
+        font-size: small;
+    }
+    .home-info {
+        margin-left: 30px;
+    }
+}
